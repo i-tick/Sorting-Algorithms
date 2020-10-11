@@ -33,7 +33,7 @@ void printArray(int arr[], int size)
 // Driver code 
 int main() 
 { 
-	int arr[] = {64, 34, 25, 12, 22, 11, 90}; // array initialisation 
+	int arr[] = {3,1,8,2,0,5,6}; // array initialisation 
 	int n = sizeof(arr)/sizeof(arr[0]); 
 	bubbleSort(arr, n); // function call to sort the array
 	printf("Sorted array: \n"); 
